@@ -1,0 +1,8 @@
+cat > userlist
+satya
+rama 
+krishna
+for i in `cat userlist`
+>do
+>useradd $i
+>done
