@@ -1,0 +1,8 @@
+cat > inventory
+system-1
+system-2
+system-3
+for i in `cat inventory`
+do
+ssh $i "uname -a"
+done
